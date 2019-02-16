@@ -167,5 +167,40 @@ module.exports = {
         value: 16
       }
     ],
-  }
+  },
+  audioSamples: [
+    { id: 0x01, backgroundMusic: true, loop: true },
+    { id: 0x02, backgroundMusic: true, loop: true },
+    { id: 0x03, hasSecondSample: true, backgroundMusic: true, loop: true },
+    { id: 0x04, backgroundMusic: true, loop: true },
+    { id: 0x05, hasSecondSample: true, backgroundMusic: true, loop: true },
+    { id: 0x06, backgroundMusic: true, loop: true },
+    { id: 0x07, hasSecondSample: true, backgroundMusic: true, loop: true },
+    { id: 0x08, backgroundMusic: true, loop: true },
+    { id: 0x09, backgroundMusic: true, loop: false },
+    { id: 0x0A, backgroundMusic: true, loop: true },
+    { id: 0x0B, backgroundMusic: true, loop: true },
+    { id: 0x0C, hasSecondSample: true, backgroundMusic: true, loop: true },
+    { id: 0x0D, hasSecondSample: true, backgroundMusic: true, loop: true },
+    { id: 0x0E, backgroundMusic: true },
+    { id: 0x0F, backgroundMusic: true, loop: true },
+
+    { id: 0x10, backgroundMusic: true, loop: true },
+    { id: 0x14, hasSecondSample: true, backgroundMusic: true },
+    { id: 0x19, hasSecondSample: true, backgroundMusic: true, loop: true },
+    { id: 0x1A, backgroundMusic: true, loop: true },
+    { id: 0x1E, backgroundMusic: true },
+    { id: 0x1F, hasSecondSample: true, backgroundMusic: true, loop: true },
+
+    { id: 0x46, duplicateOfSampleId: 2 },
+
+    { id: 0x66, channel: 2 },
+    { id: 0x67, duplicateOfSampleId: 0x66, channel: 3 },
+    { id: 0x68, channel: 2 },
+    { id: 0x69, duplicateOfSampleId: 0x68, channel: 3 },
+    { id: 0x6A, channel: 2 },
+    { id: 0x6B, duplicateOfSampleId: 0x6A, channel: 3 },
+    { id: 0x6C, channel: 2 },
+    { id: 0x6D, duplicateOfSampleId: 0x6C, channel: 3 },
+  ],
 };
